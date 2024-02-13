@@ -2,4 +2,4 @@
 
 This project is a basic implementation of Rock-Paper-Scissors
 
-I will be using Javascript for the game logic. The game will be playable in the browser console and will add CSS and more functionality at a later stage.
+I will be using Javascript for the game logic. The player can select out of three emojis ( rock paper scissors )  and play against the computer which randomly selects a weapon. User score and computer score are displayed.
