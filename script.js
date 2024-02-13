@@ -21,12 +21,17 @@ selectionButtons.forEach(selectionButton => {
     selectionButton.addEventListener("click", e => {
         const selectionName = selectionButton.dataset.selection
         const selection = SELECTIONS.find(selection => selection.name === selectionName )
-        makeSelection(selectionName)
+        makeSelection(selection)
     })
 })
 
 function makeSelection(selection) {
     console.log(selection)
+}
+
+function randomSelection() {
+    const randomIndex = Math.floor(Math.random() * SELECTIONS.length)
+    return SELECTIONS[randomIndex]
 }
 
 
